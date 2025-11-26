@@ -14,7 +14,7 @@
 ### 1. 克隆并启动项目
 ```bash
 git clone <repo-url>
-cd log-analytics-interview
+cd python-interview
 docker-compose up -d
 ```
 
