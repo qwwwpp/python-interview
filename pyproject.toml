@@ -1,5 +1,5 @@
 [project]
-name = "log-analytics-interview"
+name = "python-interview"
 version = "1.0.0"
 description = "电商网站日志分析API服务"
 requires-python = ">=3.9"
@@ -13,4 +13,7 @@ dependencies = [
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
 
