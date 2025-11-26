@@ -7,7 +7,7 @@ class AccessLog(Base):
     访问日志模型
     存储网站访问日志信息
     """
-    __tablename__ = "acess_logs"  # 故意拼写错误：应该是 access_logs（缺少c）
+    __tablename__ = "acess_logs" 
 
     id = Column(Integer, primary_key=True, index=True)
     timestamp = Column(DateTime, nullable=False, index=True)

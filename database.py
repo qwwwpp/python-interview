@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # 数据库配置
-DATABASE_URL = "postgresql://loguser:logpass@localhost:5432/logdb"  # 故意错误：端口应该是5433
+DATABASE_URL = "postgresql://loguser:logpass@localhost:5432/logdb"
 
 # 创建数据库引擎
 engine = create_engine(DATABASE_URL)
