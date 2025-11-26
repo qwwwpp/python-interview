@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: logpass
       POSTGRES_DB: logdb
     ports:
-      - "5433:5432"  # 故意错误：应该是 5432:5432
+      - "5433:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
