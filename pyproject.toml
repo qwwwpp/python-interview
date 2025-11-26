@@ -1,0 +1,16 @@
+[project]
+name = "log-analytics-interview"
+version = "1.0.0"
+description = "电商网站日志分析API服务"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi==0.104.1",
+    "uvicorn[standard]==0.24.0",
+    "sqlalchemy==2.0.23",
+    "pydantic==2.5.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+

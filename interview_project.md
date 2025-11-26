@@ -5,6 +5,7 @@
 
 ## 环境要求
 - Python 3.9+
+- uv (Python package manager) - 安装方法: `curl -LsSf https://astral.sh/uv/install.sh | sh` 或 `pip install uv`
 - Docker & Docker Compose
 - 任何你喜欢的编辑器/IDE
 
@@ -19,7 +20,7 @@ docker-compose up -d
 
 ### 2. 安装依赖
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
 ### 3. 运行服务
